@@ -11,6 +11,8 @@ Implementation of custom spatial functions and queries for a peer-to-peer taxi s
 - **Big Data Processing**: Handles large-scale geospatial datasets with Spark
 - **Real-time Analytics**: Supports operational and strategic decision making
 
+**Tech Stack**: Apache Spark, SparkSQL, Scala, Geospatial Analysis
+
 ## Spatial Functions
 - **ST_Contains**: Check if point lies within rectangle boundary
 - **ST_Within**: Calculate Euclidean distance between two points
@@ -41,4 +43,3 @@ spark-submit CSE511-assembly-0.1.0.jar result/output \
 - Scala 2.11
 - Docker (recommended setup)
 
-**Tech Stack**: Apache Spark, SparkSQL, Scala, Geospatial Analysis
